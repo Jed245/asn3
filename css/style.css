@@ -1,0 +1,23 @@
+img {
+    width: 300px;
+}
+
+* {
+    color: black;
+}
+
+h1 {
+    color: maroon;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+.color {
+    color: rgb(90, 158, 197);
+}
+
+body {
+    background-color: rgb(209, 177, 177);
+}

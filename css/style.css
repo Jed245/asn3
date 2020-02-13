@@ -1,18 +1,43 @@
 html {
-    background-color: rgb(0, 66, 75);
+    background-color: rgba(235, 178, 178, 0.459)
 }
+
 
 img {
     width: 300px;
+    float: left;
+    margin-right: 15px;
+
 }
 
-* {
+/* {
     color: rgb(0, 2, 1);
+}*/
+
+body {
+    background-color: rgb(170, 225, 235);
+
+    width: 1080px;
+    padding: 10px;
+    margin: 15px auto;
+    font-family: sans-serif;
+    border: 3px solid black
+}
+
+header {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+
 }
 
 h1 {
-    color: maroon;
+    font-family: cursive;
+    font-size: 4em;
+    color: rgb(255, 246, 246);
+    text-shadow: 2px 5px black;
 }
+
 
 h2 {
     color: rgb(15, 70, 173);
@@ -22,23 +47,24 @@ h2 {
     color: rgb(8, 144, 223);
 }
 
-body {
-    background-color: rgba(207, 54, 54, 0.459);
-    width: 1080px;
-    padding: 10px;
-    margin: 15px auto;
-    font-family: sans-serif;
-    border: 3px solid rgb(17, 200, 103);
-
-}
-
-header {
-    text-align: justify;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+.content-wrap {
+    width: 900px;
+    margin: 0 auto;
 }
 
 section h2 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.down {
+    margin-top: 200px;
+}
+
+section h3 {
+    margin-left: 325px;
+}
+
+p {
+    text-align: left;
 }

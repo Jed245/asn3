@@ -1,5 +1,5 @@
 html {
-    background-color: rgba(235, 178, 178, 0.459)
+    background-color: rgba(94, 94, 94, 0.459)
 }
 
 
@@ -7,7 +7,6 @@ img {
     width: 300px;
     float: left;
     margin-right: 15px;
-
 }
 
 /* {
@@ -26,45 +25,108 @@ body {
 
 header {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-weight: normal;
 
 
 }
 
-h1 {
-    font-family: cursive;
-    font-size: 4em;
-    color: rgb(255, 246, 246);
-    text-shadow: 2px 5px black;
+ul {
+    list-style-type: none;
+    margin: 3px;
+    padding: 12px;
+    background-color: rgb(85, 0, 124);
+    border: black solid;
+    
 }
 
+a {
+    text-decoration: none;
+    /*removes underline*/
+    color: white;
+    /*change color*/
+    padding: 15px 90px;
+    /* space around text*/
+   
+    font: 15px/18px bold sans-serif bold;
+    /* change font style, size, line hight, and family */
 
-h2 {
-    color: rgb(15, 70, 173);
 }
 
-.color {
-    color: rgb(8, 144, 223);
+ul li {
+    display: inline-block;
+    /* put it in a line */
+    position: relative;
+
 }
 
-.content-wrap {
-    width: 900px;
-    margin: 0 auto;
+li a:hover {
+    background-color: blue;
 }
 
-section h2 {
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+ul li ul {
+    /*display: none; don't do this not Accesible*/
+    left: -9999px;
+    /*place submenu off screen*/
+    position: absolute;
+    /* position absolute underneath menu items*/
+    top: 2em;
+    /* sub menu below main nav*/
+    padding: 0;
+    /* move sub-menu horizonally below main nav*/
+    width:270px;
+    /* increase horzontal size of sub-menu*/
+
 }
 
-.down {
-    margin-top: 200px;
+ul li ul a {
+
+    background-color: black;
+    /* change sub-menu link color*/
+    width: 6em;
+    /* change sub-menu link width*/
+    display: block;
+    /* display as block */
 }
 
-section h3 {
-    margin-left: 325px;
+li:hover ul {
+    left: 0px;
+    /*brings back sub-menu on screen*/
 }
 
-p {
-    text-align: left;
-}
+    h1 {
+        font-family: cursive;
+        font-size: 4em;
+        color: rgb(255, 246, 246);
+        text-shadow: 2px 5px black;
+    }
+
+
+    h2 {
+        color: rgb(15, 70, 173);
+    }
+
+    .color {
+        color: rgb(8, 144, 223);
+    }
+
+    .content-wrap {
+        width: 900px;
+        margin: 0 auto;
+    }
+
+    section h2 {
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .down {
+        margin-top: 200px;
+    }
+
+    section h3 {
+        margin-left: 325px;
+    }
+
+    p {
+        text-align: left;
+    }
